@@ -1,3 +1,3 @@
     docker build -t cloudgenius/nginx .
 
-    docker cloudgenius/nginx
+    docker push cloudgenius/nginx
