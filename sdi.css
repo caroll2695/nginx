@@ -1,0 +1,101 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background-color: #fff;
+}
+h1 {
+    font-weight: 400;
+    font-size: 42px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+main {
+    /* height: 100vh; */
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.highlight {
+    color: #009bdf;
+}
+
+.header {
+    margin: 30px auto;
+}
+
+.diagram {
+    width: 100%;
+    max-width: 750px;
+    margin: 50px
+}
+
+.footer {
+    margin-top: 120px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.avatar {
+    /* height: 100px; */
+    width: 120px;
+    margin-right: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: #009bdf;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.supportingInfo {
+    color: gray;
+    line-height: 20px;
+    font-size: 20px;
+
+}
+
+/* 
+.listContainer {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.bullets {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.bullet {
+    width: 400px;
+    margin-left: 40px;
+} */
