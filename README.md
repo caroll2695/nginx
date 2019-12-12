@@ -1,3 +1,5 @@
-    docker build -t cloudgenius/nginx .
+   custom nginx image that serves simple html page
+   
+    docker build -t caroll2695/nginx .
 
-    docker push cloudgenius/nginx
+    docker push caroll2695/nginx
